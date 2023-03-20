@@ -4,12 +4,17 @@ import "fmt"
 
 func main() {
 	var (
-		idade float64
+		numero int
 	)
-	fmt.Print("Qual é a sua idade em anos?")
-	fmt.Scan(&idade)
 
-	idadedias := idade * 365
+	fmt.Print("Vamos saber se um número é múltiplo de 3 e 5 ao mesmo tempo.")
+	fmt.Print("Qual o numero vc deseja saber?")
+	fmt.Scan(&numero)
 
-	fmt.Println("Sua idade em dias é", idadedias)
+	if numero%3 == 0 && numero%5 == 0 {
+		fmt.Println("O numero é multiplo de 3 e 5 ao mesmo tempo")
+	} else {
+		fmt.Println("O numero não é multiplo de 3 e 5 ao mesmo tempo")
+	}
+
 }

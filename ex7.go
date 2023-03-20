@@ -4,14 +4,17 @@ import "fmt"
 
 func main() {
 	var (
-		numero float64
+		salario float64
 	)
-	fmt.Print("Qual é o numero")
-	fmt.Scan(&numero)
+	fmt.Print("Qual é o seu salario?")
+	fmt.Scan(&salario)
 
-	antecessor := numero - 1
-	sucessor := numero + 1
+	reajustemenor := (salario * 110) / 100
+	reajuastemaior := (salario * 105) / 100
 
-	fmt.Println("O antecessor do numero é", antecessor)
-	fmt.Println("O sucessor do numero é", sucessor)
+	if salario < 1000 {
+		fmt.Println("O seu novo salário é", reajustemenor)
+	} else if salario >= 1000 {
+		fmt.Println("O seu novo salário é", reajuastemaior)
+	}
 }

@@ -4,11 +4,19 @@ import "fmt"
 
 func main() {
 	var (
-		preço float64
+		primeiro, segundo, terceiro float64
 	)
-	fmt.Print("Qual é o preço do produto?")
-	fmt.Scan(&preço)
 
-	desconto := (preço * 90) / 100
-	fmt.Println("O preço com desconto é de", desconto)
+	fmt.Print("Escreva o primeiro numero.")
+	fmt.Scan(&primeiro)
+	fmt.Print("Escreva o segundo numero.")
+	fmt.Scan(&segundo)
+	fmt.Print("Escreva o terceiro numero.")
+	fmt.Scan(&terceiro)
+
+	if primeiro > segundo && segundo > terceiro {
+		fmt.Println("Em ordem crescente os numeros ficam assim", terceiro, segundo, primeiro)
+	} if primeiro < segundo
+
+
 }

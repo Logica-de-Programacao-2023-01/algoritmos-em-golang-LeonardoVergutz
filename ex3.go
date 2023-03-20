@@ -4,16 +4,16 @@ import "fmt"
 
 func main() {
 	var (
-		peso, altura float64
+		numero int
 	)
 
-	fmt.Print("Qual é o seu peso?")
-	fmt.Scan(&peso)
-	fmt.Print("Qual é a sua altura?")
-	fmt.Scan(&altura)
+	fmt.Print("Vamos descobrir se um número é ímpar ou par.")
+	fmt.Print("Qual o número vc deseja verificar?")
+	fmt.Scan(&numero)
 
-	IMC := peso / (altura * altura)
-
-	fmt.Println("O seu IMC é", IMC)
-
+	if numero%2 == 0 {
+		fmt.Println("O numero é par")
+	} else {
+		fmt.Println("O numero é ímpar")
+	}
 }
