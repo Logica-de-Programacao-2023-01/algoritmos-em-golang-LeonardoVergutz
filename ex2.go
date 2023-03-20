@@ -4,17 +4,23 @@ import "fmt"
 
 func main() {
 	var (
-		numero float64
+		primeiro, segundo, terceiro float64
 	)
-	fmt.Print("Qual é o numero?")
-	fmt.Scan(&numero)
 
-	dobro := numero * 2
-	triplo := numero * 3
-	quadruplo := numero * 4
+	fmt.Print("Qual é o primeiro número?")
+	fmt.Scan(&primeiro)
+	fmt.Print("Qual é o segundo numero?")
+	fmt.Scan(&segundo)
+	fmt.Print("Qual é o terceiro numero?")
+	fmt.Scan(&terceiro)
 
-	fmt.Println("O dobro é", dobro)
-	fmt.Println("O triplo é", triplo)
-	fmt.Println("O quadruplo é", quadruplo)
-
+	if primeiro < segundo && primeiro < terceiro {
+		fmt.Println("O menor número é", primeiro)
+	}
+	if segundo < primeiro && segundo < terceiro {
+		fmt.Println("O menor numero é ", segundo)
+	}
+	if terceiro < primeiro && terceiro < segundo {
+		fmt.Println("O menor numero é", terceiro)
+	}
 }
