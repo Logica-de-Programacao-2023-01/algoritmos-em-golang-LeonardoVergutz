@@ -1,15 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	var (
-		peso float64
-	)
-	fmt.Print("Qual é o seu peso em quilos?")
-	fmt.Scan(&peso)
 
-	libras := peso * 2.2046
-	fmt.Println("O seu peso em libras é", libras)
+	var idade int
+	fmt.Print("Digite a sua idade:")
+	fmt.Scan(&idade)
 
+	if idade < 10 {
+		fmt.Print("Você é considerado mirim!")
+	} else if idade > 9 && idade < 14 {
+		fmt.Print("Você é considerado infantil!")
+	} else if idade >= 14 && idade < 18 {
+		fmt.Print("Você é considerado juvenil!")
+	} else {
+		fmt.Print("Você é considerado adulto!")
+	}
 }

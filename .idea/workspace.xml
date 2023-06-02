@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e073bed7-12d4-4a23-baf7-b7d81f533c00" name="Changes" comment="" />
+    <list default="true" id="e073bed7-12d4-4a23-baf7-b7d81f533c00" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seleção/ex10.go" beforeDir="false" afterPath="$PROJECT_DIR$/Seleção/ex10.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QeCyzsRImGgoma74ldmm5DTw12" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,12 +46,13 @@
     "WebServerToolWindowFactoryState": "false",
     "configurable..is.expanded": "false",
     "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "C:/Users/leonardo.vergutz/repos/algoritmos-em-golang-LeonardoVergutz",
+    "last_opened_file_path": "C:/Users/Admin/repos/algoritmos-em-golang-LeonardoVergutz",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.goide.configuration.GoLibrariesConfigurableProvider"
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -53,59 +60,59 @@
       <recent name="C:\Users\leonardo.vergutz\repos\algoritmos-em-golang-LeonardoVergutz\Seleção" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build exercicio7.go">
-    <configuration name="go build awesomeProject1/Sequenciais (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build awesomeProject1/Repetição">
+    <configuration name="go build awesomeProject1/Repetição (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algoritmos-em-golang-LeonardoVergutz" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="awesomeProject1/Sequenciais" />
+      <package value="awesomeProject1/Repetição" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Sequenciais/exercicio3.go" />
+      <filePath value="$PROJECT_DIR$/Repetição/exe7.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject1/Sequenciais (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject1/Repetição (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algoritmos-em-golang-LeonardoVergutz" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="awesomeProject1/Sequenciais" />
+      <package value="awesomeProject1/Repetição" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Sequenciais/exercicio4.go" />
+      <filePath value="$PROJECT_DIR$/Repetição/exe8.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build awesomeProject1/Sequenciais (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject1/Repetição (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algoritmos-em-golang-LeonardoVergutz" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="awesomeProject1/Sequenciais" />
+      <package value="awesomeProject1/Repetição" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Sequenciais/exercicio5.go" />
+      <filePath value="$PROJECT_DIR$/Repetição/exe9.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build exercicio6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build awesomeProject1/Repetição" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algoritmos-em-golang-LeonardoVergutz" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="awesomeProject1/Repetição" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Repetição/exe10.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build exe6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algoritmos-em-golang-LeonardoVergutz" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="awesomeProject1" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Sequenciais/exercicio6.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build exercicio7.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="algoritmos-em-golang-LeonardoVergutz" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="awesomeProject1" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Sequenciais/exercicio7.go" />
+      <filePath value="$PROJECT_DIR$/Repetição/exe6.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build exercicio7.go" />
-        <item itemvalue="Go Build.go build exercicio6.go" />
-        <item itemvalue="Go Build.go build awesomeProject1/Sequenciais (3)" />
-        <item itemvalue="Go Build.go build awesomeProject1/Sequenciais (2)" />
-        <item itemvalue="Go Build.go build awesomeProject1/Sequenciais (1)" />
+        <item itemvalue="Go Build.go build awesomeProject1/Repetição" />
+        <item itemvalue="Go Build.go build awesomeProject1/Repetição (3)" />
+        <item itemvalue="Go Build.go build awesomeProject1/Repetição (2)" />
+        <item itemvalue="Go Build.go build awesomeProject1/Repetição (1)" />
+        <item itemvalue="Go Build.go build exe6.go" />
       </list>
     </recent_temporary>
   </component>
